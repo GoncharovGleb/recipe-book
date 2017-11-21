@@ -1,0 +1,16 @@
+<a
+  class="list-group-item"
+  style="cursor:pointer;"
+  routerLink="{{ id }}"
+  routerLinkActive="active"
+>
+  <div class="row">
+    <div class="col-xs-4">
+      <img src="{{ recipe.imagePath }}" alt="{{ recipe.name }}" style="max-width: 70px;"/>
+    </div>
+    <div class="col-xs-8">
+      <h4 class="mb-1">{{ recipe.name }}</h4>
+      <small>{{ recipe.description }}</small>
+    </div>
+  </div>
+</a>
